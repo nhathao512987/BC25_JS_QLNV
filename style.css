@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url(./font/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+
+#content {
+    width: 100%;
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 250%;
+    font-family: Playfair Display, serif;
+    color: #3e403f;
+}
+
+form {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsl(20deg 67% 75% / 31%);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
